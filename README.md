@@ -21,10 +21,10 @@
 
 ### 결과:
 - oversampling은 유의미한 효과 다만 일정 이상 사용 시 overfitting 발생
-- 다른 특성을 가지는 모델을 앙상블 하는 것은 test set에 대한 map score를 높이는 것에는 효과가 있었음
+- 다른 특성을 가지는 모델을 앙상블 하는 것은 test set에 대한 mAP score를 높이는 것에는 효과가 있었음
 
 ### 회고
 - 앙상블을 통해 여러 개의 bounding box를 그리는 방법은 map를 높이는 것에는 유의미하지만 <br/>
   실제 산업에서는 많은 컴퓨팅 자원이 소모됨과 동시에 판단에 혼동을 줄 수 있을 것으로 생각됨
 ![ensemble](https://github.com/KANG-dg/object_detection_for_recycle/assets/121837927/70b7095f-f1ed-4ca1-9490-d61af3892b01)
-- mmdetection을 공부해 모델을 튜닝에서 도메인에 적합한 모델링을 수행할 필요를 느낌  
+  
